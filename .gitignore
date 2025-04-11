@@ -1,0 +1,25 @@
+# Ignore CSV and Pickle data files
+*.csv
+*.pkl
+
+# Ignore Jupyter/IPython checkpoints
+.ipynb_checkpoints/
+
+# Ignore HTML output files
+*.html
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore macOS junk files
+.DS_Store
+
+# Ignore large chunk/data files
+distilbert_chunk_*.csv
+roberta_chunk_*.csv
+labelled_data_with_roberta.*
+cleaned_twcs_csv/
